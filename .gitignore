@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+
+# Logs
+logs/
+*.log
+
+# Nhost / Secrets
+config/config.yaml
+*.secret
+
+# VS Code / IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# System files
+.DS_Store
+Thumbs.db
