@@ -1,7 +1,7 @@
 import yaml
 import os
 
-def load_config(file_path="config/config.yml"):
+def load_config(file_path="config/config.yaml"):
 
     if not os.path.isfile(file_path):
         raise FileNotFoundError(f"File {file_path} not found")
@@ -15,7 +15,7 @@ def load_config(file_path="config/config.yml"):
 config = load_config()
 
 telegram_token = config["telegram_token"]
-whale_threashold = config["whale_threashold_usd"]
+whale_threshold = config["whale_threshold_usd"]
 
 rpc_urls = config.get("rpc_urls", {})
 infura_url = rpc_urls.get("infura")

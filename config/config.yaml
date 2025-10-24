@@ -1,10 +1,10 @@
-telegram_token:
-whale_threashold_usd: 10000
-rpc_url:
-  infura: "https://mainnet.infura.io/v3/4482a17ef2ba4962a8dec9064753109c"
-  alchemy: "https://eth-mainnet.g.alchemy.com/v2/8HdJ5gWp93IJ87_dKDTkX"
+telegram_token: "YOUR_TELEGRAM_BOT_TOKEN_HERE"
+whale_threshold_usd: 1000000
+
+rpc_urls:
+  infura: "https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID"
+  alchemy: "https://eth-mainnet.alchemyapi.io/v2/YOUR_ALCHEMY_API_KEY"
 
 nhost:
-  api_url: "https://xgwnlqrpvruptruekjsk.hasura.ap-south-1.nhost.run/v1/graphql"
-  admin_secret: "WPx+-*ViOGN1=012Bb'+-9r^JGAWAH7s"
-
+  api_url: "https://your-nhost-instance.hasura.app/v1/graphql"
+  admin_secret: "YOUR_NHOST_ADMIN_SECRET"
